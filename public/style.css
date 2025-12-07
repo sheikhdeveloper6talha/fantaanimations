@@ -80,7 +80,7 @@ top: 130px;
     position: absolute;
     width: 450px;
     top: 0%;
-    left: 33.5%;
+    left: 32.5%;
     transform: translate(-50% - -50%);
     transition: all 3s ease-in-out;
     z-index: 1;
@@ -334,4 +334,5 @@ object-fit: contain;
     outline: none;
     background: hsl(10, 40%, 20%);
     color: #fff;
+
 }
