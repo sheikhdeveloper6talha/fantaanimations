@@ -49,7 +49,7 @@ if(check){
     
     if (aisX < 800) {
         img.style.transform =
-            `translateX(${aisX < 480 ? aisX  :  saveData}px) translateY(${(aisY * 1.5)-110}px)`;
+            `translateX(${aisX < 480 ? aisX  :  saveData+20}px) translateY(${(aisY * 1.5)-110}px)`;
             img1.style.transform =
             `translateX(${aisX < 480 ? aisX  :  saveData+70}px) translateY(${(aisY * 1.5)-110}px)`;
                    
@@ -80,5 +80,6 @@ let two = document.getElementById('twoTwo');
 newAnimate()
 
 window.addEventListener('scroll' , newAnimate)
+
 
 
